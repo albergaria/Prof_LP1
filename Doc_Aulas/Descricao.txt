@@ -1,0 +1,26 @@
+Instalacao do Git
+Instalação do GitHub Desktop
+Instalação opcional do PyCharm
+
+Tipos primitivos de variaveis no Python
+int()   - numeros inteiros sem casa decimal. Ex.: 7, -4, 0, 9875
+float() - numeros com casas decimais. Ex.: 4.5, 0.076, -15.223, 7.0
+bools() - Booleanos. Somente dois estados. True ou False (T e F maiusculos)
+str()   - Caracteres. É considerado texto. Ex: 'Olá', '7.5', ''
+
+Diferença entre Somar e Concatenar.
+
+Para verificar o typo da variavel criada utilizamos a função
+type(v) onde v é o nome da variavel que desejamos.
+
+Para verificarmos se a variavel é de um determinado tipo, fazemos da seguinte maneira:
+
+v.isnumeric()
+Onde v é a variavel e a função é isnumeric. Esta função retorna TRUE se a
+variavel pode ser convertida para numero.
+A variavel poderá conter o valor '7.5' e retornará TRUE pois '7.5' pode ser convertida em numero.
+Se variavel contiver 'Olá',  função retornara FALSE.
+
+v.isalpha()
+Onde v é a variavel e a função é isalpha. Esta função retorna TRUE se a
+variavel for um texto. Caso contrário retorna FALSE.
