@@ -1,5 +1,6 @@
 #   + adição        - subtração         * multiplicação     / divisão
 #  ** potência     // divisão inteira   % resto da divisão
+#  raiz quadrada **(1/2)                Raiz cubica **(1/3)
 
 print('Operadores aritiméticos!')
 print('--------------------------')
